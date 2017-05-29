@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Web Design</title>
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/nav.css">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Open+Sans|Raleway|Rosario" rel="stylesheet">
+ <noscript>
+    <style>
+      .visually-hidden {
+        clip: none;
+        height: auto;
+        display: block !important;
+        width: auto;
+        overflow: auto;
+        position: static;
+      }
+    </style>
+  </noscript>
+
+</head>
+<body>
+
+<div class="header">
+	<div class="row-nav">
+		<header>
+			<nav>
+
+		        <img src="images/burger.png" alt="hamburger menu" width="50" height="50" class="ham-menu">
+	        	
+				<ul id="nav-list" class="visually-hidden">
+					 <li><a href="index.html">Home</a> </li>
+					 <!-- <li><a href="aboutme.html">About Me</a> </li> -->
+					 <li><a href="projects.html">Projects</a> <!-- <li><a href="designs.html"></a>Designs</li> -->
+					 </li>
+					 <li><a href="resume.html">Resume</a></li> 
+					<li><a href="contact.html"> Contact</a> </li>
+				</ul>
+
+			</nav>
+		</header>
+	</div>
+</div>
+
+<main>
+	
+		<div class="webpage">
+			
+			<figure>
+				<a href="http://martinacalluori.com/zodiac/" target="_blank">
+					<picture>
+						<source media="(max-width: 400px)" srcset="images/zodiac350.jpg">
+						<source media="(max-width: 700px)" srcset="images/zodiac400.jpg">
+						<source media="(max-width: 800px)" srcset="images/zodiac600.jpg">
+						<source media="(min-width: 1100px)" srcset="images/zodiac1000.jpg">
+						<img src="images/zodiac600.jpg" alt="Zodiac">
+					</picture>
+				</a>
+				<figcaption class="caption"> Zodiac Calculator </figcaption>
+			</figure> 
+
+		</div>
+	
+</main>
+
+	<script src="js/scripts.js"></script>
+</body>
+</html>

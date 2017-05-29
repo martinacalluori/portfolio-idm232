@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact</title>
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/nav.css">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Open+Sans|Raleway|Rosario" rel="stylesheet">
+
+  <noscript>
+    <style>
+      .visually-hidden {
+        clip: none;
+        height: auto;
+        display: block !important;
+        width: auto;
+        overflow: auto;
+        position: static;
+      }
+    </style>
+  </noscript>
+
+</head>
+<body>
+
+<div class="header">
+	<div class="row-nav">
+		<header>
+			<nav>
+
+		        <img src="images/burger.png" alt="hamburger menu" width="50" height="50" class="ham-menu">
+	        	
+				<ul id="nav-list" class="visually-hidden">
+					 <li><a href="index.html">Home</a> </li>
+					 <!-- <li><a href="aboutme.html">About Me</a> </li> -->
+					 <li><a href="projects.html">Projects</a> <!-- <li><a href="designs.html"></a>Designs</li> -->
+					 </li>
+					 <li><a href="resume.html">Resume</a></li> 
+					<li><a href="contact.html"> Contact</a> </li>
+				</ul>
+
+			</nav>
+		</header>
+	</div>
+</div>
+
+<div class="contact">
+	<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+
+			<div class="row">
+
+				<label for="name">Your name:</label><br />
+
+				<input id="name" class="input" name="name" type="text" value="" size="60" /><br />
+			</div>
+			<div class="row">
+				<label for="email">Your email:</label><br />
+				<input id="email" class="input" name="email" type="text" value="" size="60" /><br />
+			</div>
+			<div class="row">
+				<label for="message">Your message:</label><br />
+				<textarea id="message" class="input" name="message" rows="7" cols="60"></textarea><br />
+			</div>
+			<input id="submit_button" type="submit" value="Send email" />
+
+	</form>	
+</div>	
+<script src="js/scripts.js"></script>
+
+
+</body>
+</html>
